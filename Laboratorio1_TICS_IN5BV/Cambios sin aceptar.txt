@@ -1,0 +1,11 @@
+<h1>Elige la pagina ala que quieres ir:</h1>
+    <button onclick="window.location.href = 'CV.HTML';">CV Derian</button>
+    <button onclick="window.location.href = 'Juego.HTML';">Mi juego favorito</button>
+    <button onclick="window.location.href = 'PeliculaFavorita.HTML';">Mi Pelicula Favorita</button><br>
+    <input type="text" id="miImput" placeholder="Ingresa tu valor"></input>
+    <button onclick="PruebaValorLabel()">Java Script</button><br>
+    <label id="valorLabel"></label><br><br>
+
+    <input type="number" id="num1" placeholder="Ingresa el numero 1"></input> 
+    <input type="number" id="num2" placeholder="Ingresa el numero 2"></input>
+    <button onclick="suma()">Sumar</button><br><br>
